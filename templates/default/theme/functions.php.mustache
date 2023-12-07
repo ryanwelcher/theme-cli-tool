@@ -3,8 +3,18 @@
  * Theme functions file, which is auto-loaded by WordPress. Use this file to
  * load additional PHP files and bootstrap the theme.
  *
+{{#authorName}}
  * @author    {{authorName}}
- * @copyright Copyright (c) 2023, {{authorName}}
- * @link      {{{authorURI}}}
+	{{#currentYear}}
+ * @copyright Copyright (c) {{currentYear}}, {{authorName}}
+	{{/currentYear}}
+{{/authorName}}
+{{#themeURI}}
+ * @link      {{{themeURI}}}
+{{/themeURI}}
+{{#licenseURI}}
  * @license   {{{licenseURI}}}
+{{/licenseURI}}
  */
+
+
