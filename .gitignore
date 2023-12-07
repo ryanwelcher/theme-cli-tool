@@ -1,1 +1,7 @@
-node_modules
+/.ideas
+/node_modules
+/vendor
+/phpcs.xml
+/.phpcs.xml
+*.map
+.DS_Store
